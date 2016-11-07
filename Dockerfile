@@ -8,6 +8,3 @@ RUN pip3.5 install scrapy==$SCRAPY_VERSION
 RUN mkdir -p /data
 VOLUME /data
 WORKDIR /data
-
-ENTRYPOINT ["scrapy"]
-CMD ["--help"]
